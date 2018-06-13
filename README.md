@@ -1,4 +1,4 @@
-# Ruby on Rails Tutorial sample application
+# Ruby on Rails Tutorial sample application [![Build Status](https://travis-ci.com/danille/ror_sample.svg?branch=master)](https://travis-ci.com/danille/ror_sample)
 
 This is the sample application for
 [*Ruby on Rails Tutorial:
