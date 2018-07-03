@@ -26,4 +26,6 @@
 spring/
 
 # Ignore IDEA files.
-.idea
+.ideacoverage
+coverage
+.DS_Store

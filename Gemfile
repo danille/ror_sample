@@ -17,6 +17,7 @@ gem 'uglifier',                '3.2.0'
 group :development, :test do
   gem 'byebug',  '9.0.6', platform: :mri
   gem 'sqlite3', '1.3.13'
+  gem 'simplecov', require: false
 end
 
 group :development do
