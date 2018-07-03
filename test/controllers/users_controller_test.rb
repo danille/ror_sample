@@ -25,4 +25,9 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
     assert_redirected_to login_url
   end
 
+  test "should redirect index when logged in" do
+    get users_path
+    assert_redirected_to login_url
+  end
+
 end
