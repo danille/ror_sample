@@ -2,9 +2,10 @@ require 'test_helper'
 
 class UsersControllerTest < ActionDispatch::IntegrationTest
   def setup
-    @user = users(:dmytro)
+    @user =         users(:dmytro)
+    @another_user = users(:archer)
   end
-  
+
   test "should get new" do
     get signup_path
     assert_response :success
@@ -23,4 +24,5 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
     assert_not flash.empty?
     assert_redirected_to login_url
   end
+
 end
